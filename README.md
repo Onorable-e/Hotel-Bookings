@@ -2,3 +2,6 @@
 
 This is a guided project in my data analytics class with Datafied Academy. <br>
 ## Problem Statement<br>
+In the dynamic hospitality industry, data-driven decision-making has become an indispensable tool for optimizing operations and enhancing customer satisfaction. <br> 
+As a budding data analyst, my task is to leverage Power BI to transform and analyze a dataset containing valuable information about hotel bookings. <br> 
+Through this project, you will develop skills in data cleaning, modeling, defining metrics, and crafting insightful visualizations.
