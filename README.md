@@ -22,7 +22,7 @@ c. Successful booking: Total booking where the reservation status is checked out
 ![Dataset Screenshot](https://github.com/Onorable-e/Hotel-Bookings/assets/139487541/6f624268-1f33-482b-8464-1482926fadbc)
 ## Data Inspection
 a. Shape of dataset: The dataset has 32 columns for each year and several rows.<br>
-b. The data set contains over 3000 missing values in the agent column and over 20000 in the company columns. <br> 
+b. The data set contains over 3000 missing values in the agent column and over 20000 in the company columns. <br>
 c. The dataset contains duplicates. <br>   
 d. Outliers were noticed in the previous cancelation column. <br> 
 e. The data does not look consistent. For example, the lead time which is the number of days that elapsed between the entering date of the booking into the PMS and the arrival date had some values that are not within reasonable range. <br>
