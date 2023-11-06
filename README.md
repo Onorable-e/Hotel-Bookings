@@ -28,5 +28,12 @@ d. Outliers were noticed in the previous cancelation column. <br>
 e. The data does not look consistent. For example, the lead time which is the number of days that elapsed between the entering date of the booking into the PMS and the arrival date had some values that are not within reasonable range. Also, columns; is_repeated_guest, previous_cancellations, and previous_bookings_not_canceled are inconsistent. <br>
 g. The data types for some of the columns are not consistent with the data types that they contain. <br>  
 ## Data Cleaning 
-- The datasets for the different years (2018 - 2020) were merged as new. <br>
-- Duplicates were removed by 
+- The different tables representing each year (2018 - 2020) were merged as a new table. <br>
+- Duplicates were removed: a new column (check duplicates) was created with the values from all the columns. Then the duplicates were removed from the column (check duplicates). <br>
+An arrival date column was created by merging the day, month, and year of arrival date. <br>
+The values 1 and 0 in the is_cancelled column were replaced with "Cancelled" and "Not Cancelled" respectively. <br>
+The values 1 and 0 in the is_repeat_guest column were replaced with "Repeat guest" and "New guest" respectively. <br>
+The NULL in the agent and company columns were replaced with an empty string. <br>
+The year, month name, day, and week of the year were extracted from the reservation_status_date column. <br>
+A new data source was added to use to reference the countries in our dataset.<br>
+##
