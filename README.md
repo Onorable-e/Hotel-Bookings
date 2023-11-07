@@ -28,12 +28,33 @@ d. Outliers were noticed in the previous cancelation column. <br>
 e. The data does not look consistent. For example, the lead time which is the number of days that elapsed between the entering date of the booking into the PMS and the arrival date had some values that are not within reasonable range. Also, columns; is_repeated_guest, previous_cancellations, and previous_bookings_not_canceled are inconsistent. <br>
 g. The data types for some of the columns are not consistent with the data types that they contain. <br>  
 ## Data Cleaning 
-- The different tables representing each year (2018 - 2020) were merged as a new table. <br>
+- The different tables representing each year (2018 - 2020) were merged as a new table and renamed "Hotel Bookings". <br>
 - Duplicates were removed: a new column (check duplicates) was created with the values from all the columns. Then the duplicates were removed from the column (check duplicates). <br>
-An arrival date column was created by merging the day, month, and year of arrival date. <br>
-The values 1 and 0 in the is_cancelled column were replaced with "Cancelled" and "Not Cancelled" respectively. <br>
-The values 1 and 0 in the is_repeat_guest column were replaced with "Repeat guest" and "New guest" respectively. <br>
-The NULL in the agent and company columns were replaced with an empty string. <br>
-The year, month name, day, and week of the year were extracted from the reservation_status_date column. <br>
-A new data source was added to use to reference the countries in our dataset.<br>
-##
+- An arrival date column was created by merging the day, month, and year of arrival date. <br>
+- The values 1 and 0 in the is_cancelled column were replaced with "Cancelled" and "Not Cancelled" respectively. <br>
+- The values 1 and 0 in the is_repeat_guest column were replaced with "Repeat guest" and "New guest" respectively. <br>
+- The NULL in the agent and company columns were replaced with an empty string. <br>
+- The year, month name, day, and week of the year were extracted from the reservation_status_date column. <br>
+### Dataset after cleaning
+![After data cleaning](https://github.com/Onorable-e/Hotel-Bookings/assets/139487541/fb179a38-fea4-4c2c-aa15-ee15326c0fce)
+
+## Data Modelling and Relationships
+Dimension tables were created and they include:
+### Location Dimension Table
+- The location dataset was sourced from [statistic time] (https://statisticstimes.com/geography/countries-by-continents.php).<br>
+- The following columns were extracted from the data; Code, Country name, Region, and Continent.<br>
+- The country name column was inspected for null value by filtering.
+### Hotel Dimension Table 
+The hotel dimension table was created from the merged dataset named "Hotel Bookings". The following steps were taken in creating this dimension:
+- The data (Hotel Bookings) was duplicated. <br>
+- All the transformation steps that came with the dataset were removed. <br>
+- All the columns were removed except the hotel column. <br>
+- All the duplicates from the hotel column were removed leaving just distinct values.
+- An ID column was created by using 'column from example' on the add column tab. <br>
+NB: The ID for the resort hotel is 'HT01' while that of the city hotel is 'HT02'.
+### Date Dimension Table
+The date table was created from the 'Arrival date' column using DAX. 
+
+### Relationships
+A one-to-many relationship between the fact table and the dimension tables was created. 
+![Data modelling and relationship](https://github.com/Onorable-e/Hotel-Bookings/assets/139487541/53bf7370-89cb-40e2-b776-1d6115b122a5)
