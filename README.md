@@ -47,7 +47,7 @@ We also defined metrics and KPIs that will help answer the business questions. E
 ![After data cleaning](https://github.com/Onorable-e/Hotel-Bookings/assets/139487541/fb179a38-fea4-4c2c-aa15-ee15326c0fce)
 
 # Data Modelling and Relationships
-Dimension tables were created and they include:
+The following dimension tables were created:
 
 ### Location Dimension Table
 - The location dataset was sourced from [statistic time](https://statisticstimes.com/geography/countries-by-continents.php).<br>
