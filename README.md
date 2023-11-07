@@ -1,4 +1,4 @@
-![Hotel booking](https://github.com/Onorable-e/Hotel-Bookings/assets/139487541/b40c430e-11c1-4a78-9135-e58f252ed054)
+![image](https://github.com/Onorable-e/Hotel-Bookings/assets/139487541/987806d2-f9de-4d33-afef-532be11aea64)![Hotel booking](https://github.com/Onorable-e/Hotel-Bookings/assets/139487541/b40c430e-11c1-4a78-9135-e58f252ed054)
 
 This is a guided project in my data analytics (Power BI) class with Datafied Academy. <br>
 ## Problem Statement 
@@ -59,12 +59,13 @@ The hotel dimension table was created from the merged dataset named "Hotel Booki
 - The data (Hotel Bookings) was duplicated. <br>
 - All the transformation steps that came with the dataset were removed. <br>
 - All the columns were removed except the hotel column. <br>
-- All the duplicates from the hotel column were removed leaving just distinct values.
+- All the duplicates from the hotel column were removed leaving just distinct values. <br>
 - An ID column was created by using 'column from example' on the add column tab. <br>
+
 NB: The ID for the resort hotel is 'HT01' while that of the city hotel is 'HT02'.
 
 ### Date Dimension Table
-The date table was created from the 'Arrival date' column using DAX. 
+The date table was created from the 'Arrival_date' column using DAX. 
 
 ### Relationships
 A one-to-many relationship between the fact table and the dimension tables was created. 
