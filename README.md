@@ -1,4 +1,4 @@
-![image](https://github.com/Onorable-e/Hotel-Bookings/assets/139487541/987806d2-f9de-4d33-afef-532be11aea64)
+![Hotel booking](https://github.com/Onorable-e/Hotel-Bookings/assets/139487541/0c8f487a-a892-4a6f-bf4e-aef73e29f3df)
 
 This is a guided project in my data analytics (Power BI) class with Datafied Academy. <br>
 # Problem Statement 
