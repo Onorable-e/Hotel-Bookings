@@ -1,4 +1,4 @@
-![image](https://github.com/Onorable-e/Hotel-Bookings/assets/139487541/987806d2-f9de-4d33-afef-532be11aea64)![Hotel booking](https://github.com/Onorable-e/Hotel-Bookings/assets/139487541/b40c430e-11c1-4a78-9135-e58f252ed054)
+![image](https://github.com/Onorable-e/Hotel-Bookings/assets/139487541/987806d2-f9de-4d33-afef-532be11aea64)
 
 This is a guided project in my data analytics (Power BI) class with Datafied Academy. <br>
 # Problem Statement 
@@ -7,26 +7,26 @@ In the dynamic hospitality industry, data-driven decision-making has become an i
 # Dataset Overview 
 The dataset contains various aspects of hotel bookings collected over 3 years (2018 - 2020), ranging from booking details to guest demographics. Each entry contains essential information like the Average Daily Rate (ADR), number of guests, booking agency, arrival details, room assignments, and more. 
 
-## Project Objective 
+# Project Objective 
 The project's objective was to help enhance hotel revenue and customer experience through data-driven insights by analysing the booking records and creating dashboard(s) that provide valuable insights. The dashboard should contain insightful charts, graphs, and tables to convey information effectively, thereby enabling informed decision-making on enhancing hotel revenue and customer experience. 
 
-## Business Questions and Metrics
+# Business Questions and Metrics
 We defined specific business questions that should be answered. Examples of questions include: <br>
 - Who are the people booking? <br>
 - Which of our customers are canceling their bookings? <br>
 - Where do we have the most bookings? <br>
 - Out of the total bookings, how many were successful and unsuccessful? <br>
 
-## Key Performance Indicators (KPIs)
+# Key Performance Indicators (KPIs)
 We also defined metrics and KPIs that will help answer the business questions. Examples include: <br>
 - Total booking <br>
 - Total cancellation/cancellation rate <br>
 - Successful booking: Total booking where the reservation status is checked out. Unsuccessful booking: Total booking where the reservation status is canceled or no show. <br>
 
-## Dataset
+# Dataset
 ![Dataset Screenshot](https://github.com/Onorable-e/Hotel-Bookings/assets/139487541/6f624268-1f33-482b-8464-1482926fadbc)
 
-## Data Inspection
+# Data Inspection
 - Shape of dataset: The dataset has 32 columns for each year and several rows.<br>
 - The data set contains over 3000 missing values in the agent column and over 20000 in the company columns. <br>
 - The dataset contains duplicates. <br>
@@ -34,7 +34,7 @@ We also defined metrics and KPIs that will help answer the business questions. E
 - The data does not look consistent. For example, the lead time which is the number of days that elapsed between the entering date of the booking into the PMS and the arrival date had some values that were not within reasonable range. Also, columns; is_repeated_guest, previous_cancellations, and previous_bookings_not_canceled are inconsistent. <br>
 - The data types for some of the columns are not consistent with the data types that they contain. <br>
   
-## Data Cleaning 
+# Data Cleaning 
 - The different tables representing each year (2018 - 2020) were merged as a new table and renamed "Hotel Bookings". <br>
 - Duplicates were removed: a new column (check duplicates) was created with the values from all the columns. Then the duplicates were removed from the column (check duplicates). <br>
 - An arrival date column was created by merging the day, month, and year of arrival date. <br>
@@ -46,11 +46,11 @@ We also defined metrics and KPIs that will help answer the business questions. E
 ### Dataset after cleaning
 ![After data cleaning](https://github.com/Onorable-e/Hotel-Bookings/assets/139487541/fb179a38-fea4-4c2c-aa15-ee15326c0fce)
 
-## Data Modelling and Relationships
+# Data Modelling and Relationships
 Dimension tables were created and they include:
 
 ### Location Dimension Table
-- The location dataset was sourced from [statistic time](https://statisticstimes.com/geography/countries-by-continents.php)<br>
+- The location dataset was sourced from [statistic time](https://statisticstimes.com/geography/countries-by-continents.php).<br>
 - The following columns were extracted from the data; Code, Country name, Region, and Continent.<br>
 - The country name column was inspected for null value by filtering.
   
