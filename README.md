@@ -1,10 +1,10 @@
 ![image](https://github.com/Onorable-e/Hotel-Bookings/assets/139487541/987806d2-f9de-4d33-afef-532be11aea64)![Hotel booking](https://github.com/Onorable-e/Hotel-Bookings/assets/139487541/b40c430e-11c1-4a78-9135-e58f252ed054)
 
 This is a guided project in my data analytics (Power BI) class with Datafied Academy. <br>
-## Problem Statement 
+# Problem Statement 
 In the dynamic hospitality industry, data-driven decision-making has become an indispensable tool for optimising operations and enhancing customer satisfaction. As a budding data analyst, my task is to leverage Power BI to transform and analyse the dataset containing valuable information about hotel bookings.
 
-## Dataset Overview 
+# Dataset Overview 
 The dataset contains various aspects of hotel bookings collected over 3 years (2018 - 2020), ranging from booking details to guest demographics. Each entry contains essential information like the Average Daily Rate (ADR), number of guests, booking agency, arrival details, room assignments, and more. 
 
 ## Project Objective 
@@ -33,7 +33,7 @@ We also defined metrics and KPIs that will help answer the business questions. E
 - Outliers were noticed in the previous cancelation column. <br> 
 - The data does not look consistent. For example, the lead time which is the number of days that elapsed between the entering date of the booking into the PMS and the arrival date had some values that were not within reasonable range. Also, columns; is_repeated_guest, previous_cancellations, and previous_bookings_not_canceled are inconsistent. <br>
 - The data types for some of the columns are not consistent with the data types that they contain. <br>
-- 
+  
 ## Data Cleaning 
 - The different tables representing each year (2018 - 2020) were merged as a new table and renamed "Hotel Bookings". <br>
 - Duplicates were removed: a new column (check duplicates) was created with the values from all the columns. Then the duplicates were removed from the column (check duplicates). <br>
