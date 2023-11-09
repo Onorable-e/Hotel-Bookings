@@ -24,16 +24,20 @@ We also defined metrics and KPIs that will help answer the business questions. E
 - Successful booking: Total booking where the reservation status is checked out. Unsuccessful booking: Total booking where the reservation status is canceled or no show. <br>
 
 # Data Inspection
-This is to help us view the data ... The following insights were obtained after inspecting the data: 
+We inspected the dataset so as to understand the data, detect errors and inconsistencies such as differences in data formats and data types. The following insights were obtained after inspecting the data: 
+
 - Shape of dataset: The dataset has 32 columns for each year and several rows.<br>
 - The data set contains over 3000 missing values in the agent column and over 20000 in the company columns. <br>
 - The dataset contains duplicates. <br>
 - Outliers were noticed in the previous cancelation column. <br> 
 - The data does not look consistent. For example, the lead time which is the number of days that elapsed between the entering date of the booking into the PMS and the arrival date had some values that were not within reasonable range. Also, columns; is_repeated_guest, previous_cancellations, and previous_bookings_not_canceled are inconsistent. <br>
 - The data types for some of the columns are not consistent with the data types that they contain. <br>
-  
+
+The data inspection helped to identify areas to focus on when cleaning the data.
+
 # Data Cleaning 
-From our data inspection, 
+From our data inspection, errors and inconsistencies were addressed. For example, the columns with the wrong data types/formats were converted to the right ones.<br>
+Some other steps taken during the data cleaning are as follows:   
 - The different tables representing each year (2018 - 2020) were merged as a new table and renamed "Hotel Bookings". <br>
 - Duplicates were removed: a new column (check duplicates) was created with the values from all the columns. Then the duplicates were removed from the column (check duplicates). <br>
 - An arrival date column was created by merging the day, month, and year of arrival date. <br>
@@ -46,6 +50,8 @@ From our data inspection,
 ![After data cleaning](https://github.com/Onorable-e/Hotel-Bookings/assets/139487541/fb179a38-fea4-4c2c-aa15-ee15326c0fce)
 
 # Data Modelling and Relationships
+Dimension tables with descriptive attributes related to the fact table were created to enable users to slice and dice data and even drill down into hierarchies and generate insightful reports based on the defined relationships in the model.<br>
+
 The following dimension tables were created:
 
 ### Location Dimension Table
@@ -67,6 +73,6 @@ NB: The ID for the resort hotel is 'HT01' while that of the city hotel is 'HT02'
 The date table was created from the 'Arrival_date' column using DAX. 
 
 ### Relationships
-A one-to-many relationship between the fact table and the dimension tables was created. 
+A star schema was designed leading to a one-to-many relationship between the fact table and the dimension tables.  
 
 ![Data modelling and relationship](https://github.com/Onorable-e/Hotel-Bookings/assets/139487541/53bf7370-89cb-40e2-b776-1d6115b122a5)
