@@ -68,10 +68,10 @@ The hotel dimension table was created from the merged dataset named "Hotel Booki
 - All the duplicates from the hotel column were removed leaving just distinct values. <br>
 - An ID column was created by using 'column from example' on the add column tab. <br>
 
-NB: The ID for the resort hotel is 'HT01' while that of the city hotel is 'HT02'.
+NB: The ID for the resort hotel is 'HT01' while that for the city hotel is 'HT02'.
 
 ### Date Dimension Table
-The date table was created from the 'Arrival_date' column using DAX. 
+The date table was created from the 'Arrival_date' column using DAX and it consists of the year, month name, day, and week number. 
 
 ### Relationships
 A star schema was designed leading to a one-to-many relationship between the fact table and the dimension tables.  
