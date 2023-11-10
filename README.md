@@ -1,6 +1,7 @@
-![Hotel booking](https://github.com/Onorable-e/Hotel-Bookings/assets/139487541/0c8f487a-a892-4a6f-bf4e-aef73e29f3df)
+![Hotel booking](https://github.com/Onorable-e/Hotel-Bookings/assets/139487541/0c8f487a-a892-4a6f-bf4e-aef73e29f3df) 
 
-This is a guided project in my data analytics (Power BI) class with [Datafied Academy](https://github.com/Datafyde). <br>
+This is a guided project in my data analytics (Power BI) class with [Datafied Academy](https://github.com/Datafyde) - Data Heros Cohort. <br>
+
 # Problem Statement 
 In the dynamic hospitality industry, data-driven decision-making has become an indispensable tool for optimising operations and enhancing customer satisfaction.
 
