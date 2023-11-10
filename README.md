@@ -14,7 +14,7 @@ The project's objective was to help optimise business operations through data-dr
 # Business Questions and Metrics
 We defined specific business questions that should be answered. Examples of questions include: <br>
 - Who are the people booking? <br>
-- Which of our customers are canceling their bookings? <br>
+- Which of our customers are cancelling their bookings? <br>
 - Where do we have the most bookings? <br>
 - Out of the total bookings, how many were successful and unsuccessful? <br>
 
@@ -22,7 +22,7 @@ We defined specific business questions that should be answered. Examples of ques
 We also defined metrics and KPIs that will help answer the business questions. Examples include: <br>
 - Total booking <br>
 - Total cancellation/cancellation rate <br>
-- Successful booking: Total booking where the reservation status is checked out. Unsuccessful booking: Total booking where the reservation status is canceled or no show. <br>
+- Successful booking: Total booking where the reservation status is checked out. Unsuccessful booking: Total booking where the reservation status is cancelled or no show. <br>
 
 # Data Inspection
 We inspected the dataset so as to understand the data, detect errors and inconsistencies such as differences in data formats and data types. The following insights were obtained after inspecting the data: 
@@ -30,7 +30,7 @@ We inspected the dataset so as to understand the data, detect errors and inconsi
 - Shape of dataset: The dataset has 32 columns for each year and several rows.<br>
 - The data set contains over 3000 missing values in the agent column and over 20000 in the company columns. <br>
 - The dataset contains duplicates. <br>
-- Outliers were noticed in the previous cancelation column. <br> 
+- Outliers were noticed in the previous cancellation column. <br> 
 - The data does not look consistent. For example, the lead time which is the number of days that elapsed between the entering date of the booking into the PMS and the arrival date had some values that were not within reasonable range. Also, columns; is_repeated_guest, previous_cancellations, and previous_bookings_not_canceled are inconsistent. <br>
 - The data types for some of the columns are not consistent with the data types that they contain. <br>
 
@@ -51,7 +51,7 @@ Some other steps taken during the data cleaning are as follows:
 ![After data cleaning](https://github.com/Onorable-e/Hotel-Bookings/assets/139487541/fb179a38-fea4-4c2c-aa15-ee15326c0fce)
 
 # Data Modelling and Relationships
-Dimension tables with descriptive attributes related to the fact table were created to enable users to slice and dice data and even drill down into hierarchies and generate insightful reports based on the defined relationships in the model.<br>
+Dimension tables were created to enable users to slice and dice data and even drill down into hierarchies and generate insightful reports based on the defined relationships in the model.<br>
 
 The following dimension tables were created:
 
