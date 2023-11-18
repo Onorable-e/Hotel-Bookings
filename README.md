@@ -81,5 +81,7 @@ A star schema was designed leading to a one-to-many relationship between the fac
 ![Data modelling and relationship](https://github.com/Onorable-e/Hotel-Bookings/assets/139487541/53bf7370-89cb-40e2-b776-1d6115b122a5)
 
 # Visuals and Charts
+The metrics and insights were represented using appropriate chart formats (e.g., donut chart, map, and bar charts). For more in-depth information, interactive elements including slicer options, tooltips, and filters were employed.
 ![Dashboard Visuals](https://github.com/Onorable-e/Hotel-Bookings/assets/139487541/0e15cd10-53bb-4cda-860f-fc07d209cddb)
 
+# Insights
