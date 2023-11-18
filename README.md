@@ -8,6 +8,8 @@ In the dynamic hospitality industry, data-driven decision-making has become an i
 # Dataset Overview 
 The dataset contains various aspects of hotel bookings collected over 3 years (2018 - 2020), ranging from booking details to guest demographics. Each entry contains essential information like the Average Daily Rate (ADR), number of guests, booking agency, arrival details, room assignments, and more. 
 
+Data Source: [Hotel Dataset](https://www.kaggle.com/datasets/jessemostipak/hotel-booking-demand/data)
+
 # Project Objective 
 The project's objective was to help optimise business operations through data-driven insights by analysing the booking records and creating dashboard(s) that provide valuable insights. The dashboard should contain insightful charts, graphs, and tables to convey information effectively, thereby enabling informed decision-making on optimising operations. 
 
