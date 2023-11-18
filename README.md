@@ -87,9 +87,9 @@ The metrics and insights were represented using appropriate chart formats (e.g.,
 
 # Insights
 From the visuals created, Important insights and trends were highlighted. Some of these include:
-- There is about 26.6% cancelation rate across the years (2018 - 2020).<br>
+- There is about 26.6% cancelation rate out of the total bookings.<br>
 - 3 out of 10 bookings were cancelled.<br>
 - Out of the total bookings, 49.1% had special requests.<br>
-- Transient customer type has the highest bookings while group bookings are the least.<br>
+- Transient customer type has the highest bookings and cancellation rate compared to other customer types.<br>
 - TA/TO distribution channel has the highest booking.<br>
 - Based on location, the highest bookings came from Portugal. 
