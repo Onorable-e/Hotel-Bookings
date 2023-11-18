@@ -3,7 +3,7 @@
 This is a guided project in my data analytics (Power BI) class with [Datafied Academy](https://github.com/Datafyde) - Data Heroes Cohort. <br>
 
 # Problem Statement 
-In the dynamic hospitality industry, data-driven decision-making has become an indispensable tool for optimising operations and enhancing customer satisfaction.
+In the dynamic hospitality industry, data-driven decision-making has become an indispensable tool for optimising operations and enhancing customer satisfaction. In this context, there is a need to analyse the dataset to unravel insights that will show patterns, trends, and factors influencing booking behaviours. This analysis is essential to discern the complexity of customer preferences, streamline operational processes and ultimately enhance overall service delivery.
 
 # Dataset Overview 
 The dataset contains various aspects of hotel bookings collected over 3 years (2018 - 2020), ranging from booking details to guest demographics. Each entry contains essential information like the Average Daily Rate (ADR), number of guests, booking agency, arrival details, room assignments, and more. 
@@ -79,3 +79,5 @@ The date table was created from the 'Arrival_date' column using DAX and it consi
 A star schema was designed leading to a one-to-many relationship between the fact table and the dimension tables.  
 
 ![Data modelling and relationship](https://github.com/Onorable-e/Hotel-Bookings/assets/139487541/53bf7370-89cb-40e2-b776-1d6115b122a5)
+
+# Visuals and Charts
