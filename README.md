@@ -83,11 +83,11 @@ A star schema was designed leading to a one-to-many relationship between the fac
 # Visuals and Charts
 The metrics and insights were represented using appropriate chart formats (e.g., donut chart, map, and bar charts). For more in-depth information, interactive elements including slicer options, tooltips, and filters were employed.
 
-![Dashboard Visuals](https://github.com/Onorable-e/Hotel-Bookings/assets/139487541/0e15cd10-53bb-4cda-860f-fc07d209cddb)
+![Hotel dashboard viz](https://github.com/Onorable-e/Hotel-Bookings/assets/139487541/a7e30fba-ed11-450c-8eae-1c7c710ec9b7)
 
 # Insights
 From the visuals created, Important insights and trends were highlighted. Some of these include:
-- There is about 26.6% cancelation rate out of the total bookings.<br>
+- There is about 26.6% cancellation rate out of the total bookings.<br>
 - 3 out of 10 bookings were cancelled.<br>
 - Out of the total bookings, 49.1% had special requests.<br>
 - Transient customer type has the highest bookings and cancellation rate compared to other customer types.<br>
