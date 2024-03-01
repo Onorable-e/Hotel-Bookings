@@ -10,7 +10,7 @@ The dataset contains various aspects of hotel bookings collected over 3 years (2
 
 Data Source: [Hotel Dataset](https://www.kaggle.com/datasets/jessemostipak/hotel-booking-demand/data)
 
-Data Source: [Hotel](https://www.kaggle.com/datasets/jessemostipak/hotel-booking-demand/data)
+Data Source: 
 
 # Project Objective 
 The project's objective was to help optimise business operations through data-driven insights by analysing the booking records and creating dashboard(s) that provide valuable insights. The dashboard should contain insightful charts, graphs, and tables to convey information effectively, thereby enabling informed decision-making on optimising operations. 
@@ -96,6 +96,4 @@ From the visuals created, Important insights and trends were highlighted. Some o
 - TA/TO distribution channel has the highest booking.<br>
 - Based on location, the highest bookings came from Portugal. 
 
-
-![Screenshot (56)](https://github.com/Onorable-e/Hotel-Bookings/assets/139487541/cf384fc3-0dee-4a0d-a1f0-8ac029932e08)
 
