@@ -95,3 +95,7 @@ From the visuals created, Important insights and trends were highlighted. Some o
 - Transient customer type has the highest bookings and cancellation rate compared to other customer types.<br>
 - TA/TO distribution channel has the highest booking.<br>
 - Based on location, the highest bookings came from Portugal. 
+
+
+![Screenshot (56)](https://github.com/Onorable-e/Hotel-Bookings/assets/139487541/cf384fc3-0dee-4a0d-a1f0-8ac029932e08)
+
